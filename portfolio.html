@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="t1">Hey Mama 
+                    </title>
+        <style>
+        .rou {
+            border-radius: 50%;
+        }
+        </style>
+        
+        
+    </head>
+    <body>
+        <img class="rou" src="neil.jpg" height="150px" border-radius="100px"/>
+        <p>This is plain text.</p>
+        <form>
+        <input id="text2" type="text" />
+        <input type="button" value="submit" onclick="myfunda()" />
+            </form>
+    </body>
+    <footer>
+        <script>
+            onload = alert('hello world');
+            function myfunda()
+                {
+                    var v1 = document.getElementById("text2").value;
+                    if(v1==0)
+                        {
+                            alert("Please fill the text box");
+                            return;
+                        }
+                        var v2 = document.getElementById('t1');
+                        v2.innerHTML = v1;
+                }
+            </script>
+
+    </footer>
+</html>
