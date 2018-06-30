@@ -12,7 +12,6 @@ $(function()
             {
                 $.playSound("scream.mp3");
             }
-
         }
     )
     $('#start').click( function()
@@ -25,3 +24,4 @@ $(function()
 })
 
 
+//console
